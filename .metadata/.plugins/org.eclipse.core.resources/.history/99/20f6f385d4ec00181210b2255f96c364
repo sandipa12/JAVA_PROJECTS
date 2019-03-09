@@ -1,0 +1,47 @@
+import java.util.Scanner;
+public class PandeEx07_17 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		//prompt the user to enter number of students
+		System.out.println("Enter the number of students: ");
+		final int NUM_OF_STUDENTS = input.nextInt();
+		
+		//prompt the user to enter the student's names and scores
+		String[] names = new String[NUM_OF_STUDENTS];
+		double[] scores = new double[NUM_OF_STUDENTS];
+		
+		for(int i = 0; i <= NUM_OF_STUDENTS; i++) {
+			System.out.println("Enter a student's name: ");
+			names[i] = input.next();
+			System.out.println("Enter student's score: ");
+			scores[i] = input.nextDouble();
+			
+		}//end for 
+
+		// selection sort based on scores
+		selectionsort(scores, names);
+		
+		
+		//print out results... names in decreasing order of scores
+	public static void selectionsort(double[] list, string[] names) {
+		for(int i = 0; i < list.length; i++) {
+			
+			// find the minimum in the list[i...list.length-1]
+			double currentMin = list[i];
+			int currentIndex = i;
+			
+			for (int j = i + 1; j < list.length; j++) {
+				if currentMin > List[j]{
+					
+				}
+			}
+			
+		}// end for
+	}
+
+	}//end main
+
+}//end Pande07_17

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ComputeArea {
+	
+	public static void main(String[] main) {
+		
+		// Create a Scanner Object.
+		Scanner input = new Scanner(System.in);
+		
+		// Ask user to enter city.
+		System.out.println("Enter First City: ");
+				
+		// Input from User.
+		String firstCity = input.nextLine();
+		
+		System.out.println("Enter Second City: ");
+		String secondCity = input.nextLine();
+		
+		if (firstCity.compareTo(secondCity) < 0) {
+			System.out.println(firstCity + "\n" + secondCity);
+		}
+	}
+	
+}

@@ -1,0 +1,16 @@
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a = "Sandipa Pande";
+		
+		// Find the length of the string.
+		System.out.print(a.charAt(10));
+
+		
+
+	}		
+
+}

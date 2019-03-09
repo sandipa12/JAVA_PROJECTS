@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ComputeArea {
+	
+	public static void main(String[] main) {
+		
+		String b = "5.2";
+		double value = Double.parseDouble(b);
+		System.out.println(value);
+	}
+	
+}

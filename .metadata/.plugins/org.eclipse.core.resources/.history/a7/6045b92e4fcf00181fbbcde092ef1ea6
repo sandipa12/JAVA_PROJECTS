@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ComputeArea {
+	
+	public static void main(String[] main) {
+		
+		// Create a Scanner Object.
+		Scanner input = new Scanner(System.in);
+		
+		// Input from User.
+		String firstCity = input.nextLine();
+		
+		// Ask user to enter city.
+		System.out.println("Enter First City: ");
+		
+		String secondCity = input.nextLine();
+		System.out.println("Enter Second City: ");
+		
+	}
+	
+}

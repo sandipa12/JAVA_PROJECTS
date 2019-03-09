@@ -1,0 +1,17 @@
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a = "Sandipa";
+		String b = "ASandipa";
+		
+		boolean c = a.contains("a");
+		
+		System.out.println(c);
+	}		
+
+}
+
+

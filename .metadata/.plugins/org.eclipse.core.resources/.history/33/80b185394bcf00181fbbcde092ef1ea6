@@ -1,0 +1,26 @@
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a = "Sandipa";
+		String b = "SandipA";
+		
+		int c = a.compareTo(b);
+		
+		
+		
+		if (c == 7) {
+			System.out.println("I am a girl");
+		}
+		
+		else {
+			System.out.println("I am a boy");
+		}
+
+	}		
+
+}
+
+

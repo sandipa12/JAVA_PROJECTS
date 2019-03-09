@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ComputeArea {
+	
+	public static void main(String[] main) {
+		
+		String b = "5";
+		int value = Integer.parseInt(b);
+		System.out.println(value);
+	}
+	
+}

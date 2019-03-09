@@ -1,0 +1,18 @@
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 5;
+		double b = 6.0;
+		
+		// Concatenate Array.
+		double c = a + b;
+		
+		// Print
+		System.out.println(c);	
+
+	}		
+
+}

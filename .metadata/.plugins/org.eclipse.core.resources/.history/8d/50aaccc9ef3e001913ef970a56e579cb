@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Assignment {
+
+    public static void main(String[] args) {
+    	
+        
+        Scanner input = new Scanner(System.in);
+        double x = input.nextDouble();
+        double y = input.nextDouble();
+         double radius = input.nextDouble();
+        Circle2D c1 = new Circle2D(x, y, radius);
+        double x1 = input.nextDouble();
+       double  y1 = input.nextDouble();
+         double radius1 = input.nextDouble();
+        Circle2D c2 = new Circle2D(x1, y1, radius1);
+
+        System.out.println((Math.round(c1.getArea() * 100.0) / 100.0) + " " + (Math.round(c1.getPerimeter() * 100.0) / 100.0));
+        System.out.println((Math.round(c2.getArea() * 100.0) / 100.0) + " " + (Math.round(c2.getPerimeter() * 100.0) / 100.0));
+        if (c1.contains(c2) || c2.contains(c1)) {
+            System.out.println("Contained");
+        }
+        if (c1.overlaps(c2)) {
+            System.out.println("Overlapped");
+        }
+
+    }
+}
+   

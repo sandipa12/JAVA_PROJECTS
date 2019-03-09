@@ -1,0 +1,26 @@
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a = "Sandipa";
+		String b = "SandipA";
+		
+		boolean c = a.equalsIgnoreCase(b);
+		
+		
+		
+		if (c == true) {
+			System.out.println("I am a girl");
+		}
+		
+		else {
+			System.out.println("I am a boy");
+		}
+
+	}		
+
+}
+
+

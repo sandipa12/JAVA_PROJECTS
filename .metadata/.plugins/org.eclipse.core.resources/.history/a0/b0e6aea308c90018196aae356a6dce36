@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Mean {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter numbers");
+		
+		double number1 = input.nextDouble();
+		double number2 = input.nextDouble();
+		
+		double average = number1+number2 / 2;
+		 System.out.println("The average of" + number1 + "and" + number2 + "is"+ average);
+		
+		
+
+	}
+
+}
