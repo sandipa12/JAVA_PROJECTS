@@ -2,24 +2,29 @@
 public class TestSimpleCircle {
 
 	public static void main(String[] args) {
-		SimpleCircle Circle1 = new SimpleCircle();
-		SimpleCircle Circle2 = new SimpleCircle(25.0);
-		System.out.println(Circle2.getArea());
-		Circle2.radius = 100;
-		System.out.println(Circle1.getArea());
-		System.out.println(Circle2.getArea());
-		Circle1.setRadius(20.0);
-		System.out.println(new SimpleCircle(125.0).getArea());
-	
-		 
+		SimpleCircle Circle1 = new SimpleCircle(1);
+		
+		System.out.println(Circle1.getRadius());
+		 int n = 5;
+		 PrintArea(Circle1, n);
 		
 
+	}
+	public static void PrintArea(SimpleCircle c, int times) {
+		System.out.println( c.getRadius() + "and" + c.getArea());
+		c.setRadius(c.getRadius()+1);
+		while(times > 1) {
+			System.out.println( c.getRadius() + "and" + c.getArea());
+			c.setRadius(c.getRadius()+1);
+			times --;
+			
+		}
 	}
 
 }
 class SimpleCircle{
 	
-	double radius;
+	private double radius;
 	
 	SimpleCircle(){
 		
@@ -30,10 +35,13 @@ class SimpleCircle{
 		radius = newRadius;
 	}
 	 
+	public double getRadius() {
+		return radius;
+	}
 	double getArea() {
 		return radius*radius* Math.PI;
 	}
-	void setRadius(double newRadius) {
+	public void setRadius(double newRadius) {
 		this.radius = newRadius	;
 			}
 	
